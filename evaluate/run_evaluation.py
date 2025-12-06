@@ -31,8 +31,7 @@ def build_model(device: torch.device):
         "ViT-B-32", pretrained="openai"
     )
     model = model.to(device)
-    logit_scale = model.logit_scale.exp().detach().item()
-    return model, preprocess, logit_scale
+    return model, preprocess
 
 
 def attn_cosine_sim(x, eps=1e-08):
@@ -198,7 +197,7 @@ def evaluate(
     data_root: Path, prompts_csv: Path, device: torch.device
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     prompts = load_prompts(prompts_csv)
-    model, preprocess, logit_scale = build_model(device)
+    model, preprocess = build_model(device)
     dino_loss = DinoStructureLoss(device)
 
     method_dirs = {
@@ -250,8 +249,8 @@ def evaluate(
                         continue
                     new_emb = encode_image(model, preprocess, device, img_path)
                     text_emb = text_cache[(type_name, idx)]
-                    clip_new_prompt = logit_scale * torch.dot(new_emb, text_emb).item()
-                    clip_old_image = logit_scale * torch.dot(new_emb, old_emb).item()
+                    clip_new_prompt = torch.dot(new_emb, text_emb).item()
+                    clip_old_image = torch.dot(new_emb, old_emb).item()
 
                     pil_edit = Image.open(img_path).convert("RGB")
                     edit_tensor = dino_loss.preprocess(pil_edit).unsqueeze(0).to(device)
