@@ -99,106 +99,106 @@ baseline,none,9-Transportation,7,A drawing of a boy driving a submarine,data/bas
 baseline,none,9-Transportation,8,A drawing of a boy driving a helicopter,data/baseline/9-Transportation/8.png,0.34073102474212646,0.7531027793884277,0.1374427229166031
 baseline,none,9-Transportation,9,A drawing of a boy driving a jet,data/baseline/9-Transportation/9.png,0.3093607723712921,0.7633500099182129,0.1029370054602623
 baseline,none,9-Transportation,10,A drawing of a boy driving a spaceship,data/baseline/9-Transportation/10.png,0.28037160634994507,0.7981127500534058,0.0889199897646904
-replace,self,0-animal,1,A photo of a cat riding a bicycle,data/replace/0-animal/1.png,0.3520209789276123,0.9133508205413818,0.018920226022601128
-replace,self,0-animal,2,A photo of a dog riding a bicycle,data/replace/0-animal/2.png,0.3323981761932373,0.9275784492492676,0.0168270505964756
-replace,self,0-animal,3,A photo of a lion riding a bicycle,data/replace/0-animal/3.png,0.3427516222000122,0.9056459665298462,0.012229502201080322
-replace,self,0-animal,4,A photo of a tiger riding a bicycle,data/replace/0-animal/4.png,0.35906434059143066,0.8869811296463013,0.010979807935655117
-replace,self,0-animal,5,A photo of a rabbit riding a bicycle,data/replace/0-animal/5.png,0.37070590257644653,0.8647992014884949,0.02271106094121933
-replace,self,0-animal,6,A photo of a panda riding a bicycle,data/replace/0-animal/6.png,0.3957117795944214,0.9283400774002075,0.009020675905048847
-replace,self,0-animal,7,A photo of a fox riding a bicycle,data/replace/0-animal/7.png,0.39243292808532715,0.9148567914962769,0.017153138294816017
-replace,self,0-animal,8,A photo of a wolf riding a bicycle,data/replace/0-animal/8.png,0.3582562804222107,0.9083985090255737,0.014762826263904572
-replace,self,0-animal,9,A photo of a monkey riding a bicycle,data/replace/0-animal/9.png,0.3702777028083801,0.8925581574440002,0.009998539462685585
-replace,self,0-animal,10,A photo of an elephant riding a bicycle,data/replace/0-animal/10.png,0.3349285125732422,0.8738007545471191,0.010864623822271824
-replace,self,1-clothes,1,A portrait of a woman wearing a jacket,data/replace/1-clothes/1.png,0.29656362533569336,0.9071276783943176,0.029495375230908394
-replace,self,1-clothes,2,A portrait of a woman wearing a sweater,data/replace/1-clothes/2.png,0.2905002236366272,0.9451277852058411,0.022864114493131638
-replace,self,1-clothes,3,A portrait of a woman wearing a skirt,data/replace/1-clothes/3.png,0.2733808755874634,0.902324914932251,0.028059354051947594
-replace,self,1-clothes,4,A portrait of a woman wearing a coat,data/replace/1-clothes/4.png,0.3025939464569092,0.8632948398590088,0.038716576993465424
-replace,self,1-clothes,5,A portrait of a woman wearing a shirt,data/replace/1-clothes/5.png,0.27542543411254883,0.9011297225952148,0.025567732751369476
-replace,self,1-clothes,6,A portrait of a woman wearing a scarf,data/replace/1-clothes/6.png,0.28586286306381226,0.9794328212738037,0.006796941626816988
-replace,self,1-clothes,7,A portrait of a woman wearing a hoodie,data/replace/1-clothes/7.png,0.31327182054519653,0.7369309663772583,0.056160081177949905
-replace,self,1-clothes,8,A portrait of a woman wearing a blouse,data/replace/1-clothes/8.png,0.3031570017337799,0.9564480185508728,0.016911581158638
-replace,self,1-clothes,9,A portrait of a woman wearing a suit,data/replace/1-clothes/9.png,0.28530001640319824,0.8417319059371948,0.037170566618442535
-replace,self,1-clothes,10,A portrait of a woman wearing a vest,data/replace/1-clothes/10.png,0.31846678256988525,0.9395970702171326,0.015902452170848846
-replace,self,2-color,1,A bear holding a red balloon.,data/replace/2-color/1.png,0.32588163018226624,0.9340904951095581,0.034164633601903915
-replace,self,2-color,2,A bear holding a yellow balloon.,data/replace/2-color/2.png,0.3242236077785492,0.9689483642578125,0.03244391828775406
-replace,self,2-color,3,A bear holding a black balloon.,data/replace/2-color/3.png,0.3209691345691681,0.9796117544174194,0.024572378024458885
-replace,self,2-color,4,A bear holding a pink balloon.,data/replace/2-color/4.png,0.3519708812236786,0.9445089101791382,0.03541024774312973
-replace,self,2-color,5,A bear holding a white balloon.,data/replace/2-color/5.png,0.33550140261650085,0.9675198793411255,0.02592615783214569
-replace,self,2-color,6,A bear holding a green balloon.,data/replace/2-color/6.png,0.32763051986694336,0.9834692478179932,0.005398391745984554
-replace,self,2-color,7,A bear holding a purple balloon.,data/replace/2-color/7.png,0.3590538501739502,0.9694240689277649,0.032868582755327225
-replace,self,2-color,8,A bear holding a orange balloon.,data/replace/2-color/8.png,0.3347424268722534,0.9270528554916382,0.03276700899004936
-replace,self,2-color,9,A bear holding a gray balloon.,data/replace/2-color/9.png,0.33154797554016113,0.9769886136054993,0.02453489415347576
-replace,self,2-color,10,A bear holding a brown balloon.,data/replace/2-color/10.png,0.3042950928211212,0.9164966344833374,0.0281520988792181
-replace,self,3-decorates,1,A cake decorated with strawberries,data/replace/3-decorates/1.png,0.30105891823768616,0.9187682271003723,0.018517397344112396
-replace,self,3-decorates,2,A cake decorated with blueberries,data/replace/3-decorates/2.png,0.3012676239013672,0.9181778430938721,0.021175742149353027
-replace,self,3-decorates,3,A cake decorated with cream,data/replace/3-decorates/3.png,0.29241257905960083,0.9213731288909912,0.03886754438281059
-replace,self,3-decorates,4,A cake decorated with sprinkles,data/replace/3-decorates/4.png,0.3017650246620178,0.928851842880249,0.02333034574985504
-replace,self,3-decorates,5,A cake decorated with almonds,data/replace/3-decorates/5.png,0.2977658212184906,0.9343916177749634,0.01597084105014801
-replace,self,3-decorates,6,A cake decorated with cherries,data/replace/3-decorates/6.png,0.3038800060749054,0.9315608143806458,0.013987073674798012
-replace,self,3-decorates,7,A cake decorated with mints,data/replace/3-decorates/7.png,0.2777990698814392,0.9283472895622253,0.02279972843825817
-replace,self,3-decorates,8,A cake decorated with macarons,data/replace/3-decorates/8.png,0.2918339967727661,0.9354007244110107,0.019956622272729874
-replace,self,3-decorates,9,A cake decorated with caramel,data/replace/3-decorates/9.png,0.2913598418235779,0.9363783001899719,0.016015728935599327
-replace,self,3-decorates,10,A cake decorated with raspberries,data/replace/3-decorates/10.png,0.31062665581703186,0.9341305494308472,0.016825051978230476
-replace,self,4-food,1,A painting of a girl holding an apple,data/replace/4-food/1.png,0.3860619068145752,0.8099365830421448,0.043831877410411835
-replace,self,4-food,2,A painting of a girl holding a grape,data/replace/4-food/2.png,0.3603123426437378,0.7116469144821167,0.04574509337544441
-replace,self,4-food,3,A painting of a girl holding a pineapple,data/replace/4-food/3.png,0.36777976155281067,0.7949820160865784,0.043692734092473984
-replace,self,4-food,4,A painting of a girl holding a watermelon,data/replace/4-food/4.png,0.33997926115989685,0.8337107300758362,0.031221464276313782
-replace,self,4-food,5,A painting of a girl holding a mango,data/replace/4-food/5.png,0.3483424186706543,0.8534542322158813,0.03394196555018425
-replace,self,4-food,6,A painting of a girl holding a strawberry,data/replace/4-food/6.png,0.3741324543952942,0.836995542049408,0.04668385535478592
-replace,self,4-food,7,A painting of a girl holding a peach,data/replace/4-food/7.png,0.3510366678237915,0.7844026684761047,0.04480108991265297
-replace,self,4-food,8,A painting of a girl holding a papaya,data/replace/4-food/8.png,0.33307865262031555,0.839506983757019,0.022722065448760986
-replace,self,4-food,9,A painting of a girl holding a kiwi,data/replace/4-food/9.png,0.32207468152046204,0.8672305345535278,0.021308783441781998
-replace,self,4-food,10,A painting of a girl holding an orange,data/replace/4-food/10.png,0.34160810708999634,0.751911461353302,0.04227232560515404
-replace,self,5-object,1,A photo of a book on the table,data/replace/5-object/1.png,0.2626415193080902,0.8476239442825317,0.040351539850234985
-replace,self,5-object,2,A photo of a cup on the table,data/replace/5-object/2.png,0.307589590549469,0.9212898015975952,0.027834484353661537
-replace,self,5-object,3,A photo of a lamp on the table,data/replace/5-object/3.png,0.32351449131965637,0.875798225402832,0.03332310914993286
-replace,self,5-object,4,A photo of a phone on the table,data/replace/5-object/4.png,0.27715200185775757,0.8647852540016174,0.039316728711128235
-replace,self,5-object,5,A photo of a chair on the table,data/replace/5-object/5.png,0.29463014006614685,0.8519179224967957,0.052284326404333115
-replace,self,5-object,6,A photo of a table on the table,data/replace/5-object/6.png,0.2660060524940491,0.8849949836730957,0.12141165882349014
-replace,self,5-object,7,A photo of a pen on the table,data/replace/5-object/7.png,0.2928953170776367,0.845160186290741,0.06728919595479965
-replace,self,5-object,8,A photo of a key on the table,data/replace/5-object/8.png,0.23435118794441223,0.7114236354827881,0.050319306552410126
-replace,self,5-object,9,A photo of a bag on the table,data/replace/5-object/9.png,0.28955209255218506,0.8641040325164795,0.04822326824069023
-replace,self,5-object,10,A photo of a clock on the table,data/replace/5-object/10.png,0.30109602212905884,0.7958295941352844,0.03711356967687607
-replace,self,6-plants,1,A drawing of a garden filled with roses,data/replace/6-plants/1.png,0.3243353068828583,0.9556505680084229,0.02382073551416397
-replace,self,6-plants,2,A drawing of a garden filled with tulips,data/replace/6-plants/2.png,0.3035508990287781,0.9356483221054077,0.021866874769330025
-replace,self,6-plants,3,A drawing of a garden filled with daisies,data/replace/6-plants/3.png,0.3103974461555481,0.9624289870262146,0.019130215048789978
-replace,self,6-plants,4,A drawing of a garden filled with lavender,data/replace/6-plants/4.png,0.28004199266433716,0.9144185781478882,0.031637609004974365
-replace,self,6-plants,5,A drawing of a garden filled with lotus,data/replace/6-plants/5.png,0.3007262647151947,0.9081602096557617,0.025913307443261147
-replace,self,6-plants,6,A drawing of a garden filled with orchids,data/replace/6-plants/6.png,0.3177731931209564,0.9350313544273376,0.02715836651623249
-replace,self,6-plants,7,A drawing of a garden filled with peonies,data/replace/6-plants/7.png,0.334658682346344,0.9586851596832275,0.0203394778072834
-replace,self,6-plants,8,A drawing of a garden filled with violets,data/replace/6-plants/8.png,0.31287673115730286,0.9499900341033936,0.021466372534632683
-replace,self,6-plants,9,A drawing of a garden filled with carnations,data/replace/6-plants/9.png,0.30995452404022217,0.9530764222145081,0.014219087548553944
-replace,self,6-plants,10,A drawing of a garden filled with hydrangeas,data/replace/6-plants/10.png,0.3400442600250244,0.9406529664993286,0.02094011940062046
-replace,self,7-text,1,A magazine cover with the headline “FASHION”,data/replace/7-text/1.png,0.24582092463970184,0.9571243524551392,0.0011036123614758253
-replace,self,7-text,2,A magazine cover with the headline “DESIGN”,data/replace/7-text/2.png,0.2559505105018616,0.9271011352539062,0.007261541672050953
-replace,self,7-text,3,A magazine cover with the headline “TRENDS”,data/replace/7-text/3.png,0.25369614362716675,0.9784176349639893,0.002135487738996744
-replace,self,7-text,4,A magazine cover with the headline “BEAUTY”,data/replace/7-text/4.png,0.25347986817359924,0.9237227439880371,0.00741488765925169
-replace,self,7-text,5,A magazine cover with the headline “LIFESTYLE”,data/replace/7-text/5.png,0.23947344720363617,0.9885222911834717,0.0014254498528316617
-replace,self,7-text,6,A magazine cover with the headline “MODERN”,data/replace/7-text/6.png,0.25661712884902954,0.9805532693862915,0.0021994970738887787
-replace,self,7-text,7,A magazine cover with the headline “ELEGANCE”,data/replace/7-text/7.png,0.25959593057632446,0.9613644480705261,0.002028575399890542
-replace,self,7-text,8,A magazine cover with the headline “GLAMOUR”,data/replace/7-text/8.png,0.24814535677433014,0.9466235041618347,0.004424461629241705
-replace,self,7-text,9,A magazine cover with the headline “FEATURES”,data/replace/7-text/9.png,0.24302281439304352,0.9798109531402588,0.0014603520976379514
-replace,self,7-text,10,A magazine cover with the headline “INSPIRE”,data/replace/7-text/10.png,0.23379647731781006,0.9601942300796509,0.004869859199970961
-replace,self,8-texture,1,A cup with a rough surface,data/replace/8-texture/1.png,0.29769203066825867,0.9840062856674194,0.009655728936195374
-replace,self,8-texture,2,A cup with a shiny surface,data/replace/8-texture/2.png,0.30397143959999084,0.9871028661727905,0.004617732018232346
-replace,self,8-texture,3,A cup with a matte surface,data/replace/8-texture/3.png,0.30118316411972046,0.9666121006011963,0.01101038046181202
-replace,self,8-texture,4,A cup with a soft surface,data/replace/8-texture/4.png,0.3007153868675232,0.9890413284301758,0.005634034518152475
-replace,self,8-texture,5,A cup with a hard surface,data/replace/8-texture/5.png,0.2888643741607666,0.9785672426223755,0.005068469792604446
-replace,self,8-texture,6,A cup with a sticky surface,data/replace/8-texture/6.png,0.2880227267742157,0.969487190246582,0.01578092761337757
-replace,self,8-texture,7,A cup with a wet surface,data/replace/8-texture/7.png,0.27635657787323,0.9554811716079712,0.008174687623977661
-replace,self,8-texture,8,A cup with a dry surface,data/replace/8-texture/8.png,0.2853392958641052,0.9782653450965881,0.006098094861954451
-replace,self,8-texture,9,A cup with a grainy surface,data/replace/8-texture/9.png,0.28945934772491455,0.9681006073951721,0.011906336061656475
-replace,self,8-texture,10,A cup with a fuzzy surface,data/replace/8-texture/10.png,0.2890967130661011,0.9885004758834839,0.006908380426466465
-replace,self,9-Transportation,1,A drawing of a boy driving a truck,data/replace/9-Transportation/1.png,0.2639128565788269,0.9499736428260803,0.01452258788049221
-replace,self,9-Transportation,2,A drawing of a boy driving a motorcycle,data/replace/9-Transportation/2.png,0.31325939297676086,0.8587620258331299,0.04594141244888306
-replace,self,9-Transportation,3,A drawing of a boy driving a bus,data/replace/9-Transportation/3.png,0.275358647108078,0.9347946643829346,0.00866589043289423
-replace,self,9-Transportation,4,A drawing of a boy driving a bicycle,data/replace/9-Transportation/4.png,0.32945555448532104,0.778908371925354,0.10117314755916595
-replace,self,9-Transportation,5,A drawing of a boy driving a scooter,data/replace/9-Transportation/5.png,0.24985191226005554,0.8932007551193237,0.016405219212174416
-replace,self,9-Transportation,6,A drawing of a boy driving a train,data/replace/9-Transportation/6.png,0.2970045506954193,0.9357213973999023,0.01123228669166565
-replace,self,9-Transportation,7,A drawing of a boy driving a submarine,data/replace/9-Transportation/7.png,0.2906138300895691,0.8823813199996948,0.019412245601415634
-replace,self,9-Transportation,8,A drawing of a boy driving a helicopter,data/replace/9-Transportation/8.png,0.2833179235458374,0.941840410232544,0.026197034865617752
-replace,self,9-Transportation,9,A drawing of a boy driving a jet,data/replace/9-Transportation/9.png,0.27724209427833557,0.9565127491950989,0.01616685837507248
-replace,self,9-Transportation,10,A drawing of a boy driving a spaceship,data/replace/9-Transportation/10.png,0.2644505500793457,0.9420233368873596,0.018528109416365623
+replace,none,0-animal,1,A photo of a cat riding a bicycle,data/replace/0-animal/1.png,0.3520209789276123,0.9133508205413818,0.018920226022601128
+replace,none,0-animal,2,A photo of a dog riding a bicycle,data/replace/0-animal/2.png,0.3323981761932373,0.9275784492492676,0.0168270505964756
+replace,none,0-animal,3,A photo of a lion riding a bicycle,data/replace/0-animal/3.png,0.3427516222000122,0.9056459665298462,0.012229502201080322
+replace,none,0-animal,4,A photo of a tiger riding a bicycle,data/replace/0-animal/4.png,0.35906434059143066,0.8869811296463013,0.010979807935655117
+replace,none,0-animal,5,A photo of a rabbit riding a bicycle,data/replace/0-animal/5.png,0.37070590257644653,0.8647992014884949,0.02271106094121933
+replace,none,0-animal,6,A photo of a panda riding a bicycle,data/replace/0-animal/6.png,0.3957117795944214,0.9283400774002075,0.009020675905048847
+replace,none,0-animal,7,A photo of a fox riding a bicycle,data/replace/0-animal/7.png,0.39243292808532715,0.9148567914962769,0.017153138294816017
+replace,none,0-animal,8,A photo of a wolf riding a bicycle,data/replace/0-animal/8.png,0.3582562804222107,0.9083985090255737,0.014762826263904572
+replace,none,0-animal,9,A photo of a monkey riding a bicycle,data/replace/0-animal/9.png,0.3702777028083801,0.8925581574440002,0.009998539462685585
+replace,none,0-animal,10,A photo of an elephant riding a bicycle,data/replace/0-animal/10.png,0.3349285125732422,0.8738007545471191,0.010864623822271824
+replace,none,1-clothes,1,A portrait of a woman wearing a jacket,data/replace/1-clothes/1.png,0.29656362533569336,0.9071276783943176,0.029495375230908394
+replace,none,1-clothes,2,A portrait of a woman wearing a sweater,data/replace/1-clothes/2.png,0.2905002236366272,0.9451277852058411,0.022864114493131638
+replace,none,1-clothes,3,A portrait of a woman wearing a skirt,data/replace/1-clothes/3.png,0.2733808755874634,0.902324914932251,0.028059354051947594
+replace,none,1-clothes,4,A portrait of a woman wearing a coat,data/replace/1-clothes/4.png,0.3025939464569092,0.8632948398590088,0.038716576993465424
+replace,none,1-clothes,5,A portrait of a woman wearing a shirt,data/replace/1-clothes/5.png,0.27542543411254883,0.9011297225952148,0.025567732751369476
+replace,none,1-clothes,6,A portrait of a woman wearing a scarf,data/replace/1-clothes/6.png,0.28586286306381226,0.9794328212738037,0.006796941626816988
+replace,none,1-clothes,7,A portrait of a woman wearing a hoodie,data/replace/1-clothes/7.png,0.31327182054519653,0.7369309663772583,0.056160081177949905
+replace,none,1-clothes,8,A portrait of a woman wearing a blouse,data/replace/1-clothes/8.png,0.3031570017337799,0.9564480185508728,0.016911581158638
+replace,none,1-clothes,9,A portrait of a woman wearing a suit,data/replace/1-clothes/9.png,0.28530001640319824,0.8417319059371948,0.037170566618442535
+replace,none,1-clothes,10,A portrait of a woman wearing a vest,data/replace/1-clothes/10.png,0.31846678256988525,0.9395970702171326,0.015902452170848846
+replace,none,2-color,1,A bear holding a red balloon.,data/replace/2-color/1.png,0.32588163018226624,0.9340904951095581,0.034164633601903915
+replace,none,2-color,2,A bear holding a yellow balloon.,data/replace/2-color/2.png,0.3242236077785492,0.9689483642578125,0.03244391828775406
+replace,none,2-color,3,A bear holding a black balloon.,data/replace/2-color/3.png,0.3209691345691681,0.9796117544174194,0.024572378024458885
+replace,none,2-color,4,A bear holding a pink balloon.,data/replace/2-color/4.png,0.3519708812236786,0.9445089101791382,0.03541024774312973
+replace,none,2-color,5,A bear holding a white balloon.,data/replace/2-color/5.png,0.33550140261650085,0.9675198793411255,0.02592615783214569
+replace,none,2-color,6,A bear holding a green balloon.,data/replace/2-color/6.png,0.32763051986694336,0.9834692478179932,0.005398391745984554
+replace,none,2-color,7,A bear holding a purple balloon.,data/replace/2-color/7.png,0.3590538501739502,0.9694240689277649,0.032868582755327225
+replace,none,2-color,8,A bear holding a orange balloon.,data/replace/2-color/8.png,0.3347424268722534,0.9270528554916382,0.03276700899004936
+replace,none,2-color,9,A bear holding a gray balloon.,data/replace/2-color/9.png,0.33154797554016113,0.9769886136054993,0.02453489415347576
+replace,none,2-color,10,A bear holding a brown balloon.,data/replace/2-color/10.png,0.3042950928211212,0.9164966344833374,0.0281520988792181
+replace,none,3-decorates,1,A cake decorated with strawberries,data/replace/3-decorates/1.png,0.30105891823768616,0.9187682271003723,0.018517397344112396
+replace,none,3-decorates,2,A cake decorated with blueberries,data/replace/3-decorates/2.png,0.3012676239013672,0.9181778430938721,0.021175742149353027
+replace,none,3-decorates,3,A cake decorated with cream,data/replace/3-decorates/3.png,0.29241257905960083,0.9213731288909912,0.03886754438281059
+replace,none,3-decorates,4,A cake decorated with sprinkles,data/replace/3-decorates/4.png,0.3017650246620178,0.928851842880249,0.02333034574985504
+replace,none,3-decorates,5,A cake decorated with almonds,data/replace/3-decorates/5.png,0.2977658212184906,0.9343916177749634,0.01597084105014801
+replace,none,3-decorates,6,A cake decorated with cherries,data/replace/3-decorates/6.png,0.3038800060749054,0.9315608143806458,0.013987073674798012
+replace,none,3-decorates,7,A cake decorated with mints,data/replace/3-decorates/7.png,0.2777990698814392,0.9283472895622253,0.02279972843825817
+replace,none,3-decorates,8,A cake decorated with macarons,data/replace/3-decorates/8.png,0.2918339967727661,0.9354007244110107,0.019956622272729874
+replace,none,3-decorates,9,A cake decorated with caramel,data/replace/3-decorates/9.png,0.2913598418235779,0.9363783001899719,0.016015728935599327
+replace,none,3-decorates,10,A cake decorated with raspberries,data/replace/3-decorates/10.png,0.31062665581703186,0.9341305494308472,0.016825051978230476
+replace,none,4-food,1,A painting of a girl holding an apple,data/replace/4-food/1.png,0.3860619068145752,0.8099365830421448,0.043831877410411835
+replace,none,4-food,2,A painting of a girl holding a grape,data/replace/4-food/2.png,0.3603123426437378,0.7116469144821167,0.04574509337544441
+replace,none,4-food,3,A painting of a girl holding a pineapple,data/replace/4-food/3.png,0.36777976155281067,0.7949820160865784,0.043692734092473984
+replace,none,4-food,4,A painting of a girl holding a watermelon,data/replace/4-food/4.png,0.33997926115989685,0.8337107300758362,0.031221464276313782
+replace,none,4-food,5,A painting of a girl holding a mango,data/replace/4-food/5.png,0.3483424186706543,0.8534542322158813,0.03394196555018425
+replace,none,4-food,6,A painting of a girl holding a strawberry,data/replace/4-food/6.png,0.3741324543952942,0.836995542049408,0.04668385535478592
+replace,none,4-food,7,A painting of a girl holding a peach,data/replace/4-food/7.png,0.3510366678237915,0.7844026684761047,0.04480108991265297
+replace,none,4-food,8,A painting of a girl holding a papaya,data/replace/4-food/8.png,0.33307865262031555,0.839506983757019,0.022722065448760986
+replace,none,4-food,9,A painting of a girl holding a kiwi,data/replace/4-food/9.png,0.32207468152046204,0.8672305345535278,0.021308783441781998
+replace,none,4-food,10,A painting of a girl holding an orange,data/replace/4-food/10.png,0.34160810708999634,0.751911461353302,0.04227232560515404
+replace,none,5-object,1,A photo of a book on the table,data/replace/5-object/1.png,0.2626415193080902,0.8476239442825317,0.040351539850234985
+replace,none,5-object,2,A photo of a cup on the table,data/replace/5-object/2.png,0.307589590549469,0.9212898015975952,0.027834484353661537
+replace,none,5-object,3,A photo of a lamp on the table,data/replace/5-object/3.png,0.32351449131965637,0.875798225402832,0.03332310914993286
+replace,none,5-object,4,A photo of a phone on the table,data/replace/5-object/4.png,0.27715200185775757,0.8647852540016174,0.039316728711128235
+replace,none,5-object,5,A photo of a chair on the table,data/replace/5-object/5.png,0.29463014006614685,0.8519179224967957,0.052284326404333115
+replace,none,5-object,6,A photo of a table on the table,data/replace/5-object/6.png,0.2660060524940491,0.8849949836730957,0.12141165882349014
+replace,none,5-object,7,A photo of a pen on the table,data/replace/5-object/7.png,0.2928953170776367,0.845160186290741,0.06728919595479965
+replace,none,5-object,8,A photo of a key on the table,data/replace/5-object/8.png,0.23435118794441223,0.7114236354827881,0.050319306552410126
+replace,none,5-object,9,A photo of a bag on the table,data/replace/5-object/9.png,0.28955209255218506,0.8641040325164795,0.04822326824069023
+replace,none,5-object,10,A photo of a clock on the table,data/replace/5-object/10.png,0.30109602212905884,0.7958295941352844,0.03711356967687607
+replace,none,6-plants,1,A drawing of a garden filled with roses,data/replace/6-plants/1.png,0.3243353068828583,0.9556505680084229,0.02382073551416397
+replace,none,6-plants,2,A drawing of a garden filled with tulips,data/replace/6-plants/2.png,0.3035508990287781,0.9356483221054077,0.021866874769330025
+replace,none,6-plants,3,A drawing of a garden filled with daisies,data/replace/6-plants/3.png,0.3103974461555481,0.9624289870262146,0.019130215048789978
+replace,none,6-plants,4,A drawing of a garden filled with lavender,data/replace/6-plants/4.png,0.28004199266433716,0.9144185781478882,0.031637609004974365
+replace,none,6-plants,5,A drawing of a garden filled with lotus,data/replace/6-plants/5.png,0.3007262647151947,0.9081602096557617,0.025913307443261147
+replace,none,6-plants,6,A drawing of a garden filled with orchids,data/replace/6-plants/6.png,0.3177731931209564,0.9350313544273376,0.02715836651623249
+replace,none,6-plants,7,A drawing of a garden filled with peonies,data/replace/6-plants/7.png,0.334658682346344,0.9586851596832275,0.0203394778072834
+replace,none,6-plants,8,A drawing of a garden filled with violets,data/replace/6-plants/8.png,0.31287673115730286,0.9499900341033936,0.021466372534632683
+replace,none,6-plants,9,A drawing of a garden filled with carnations,data/replace/6-plants/9.png,0.30995452404022217,0.9530764222145081,0.014219087548553944
+replace,none,6-plants,10,A drawing of a garden filled with hydrangeas,data/replace/6-plants/10.png,0.3400442600250244,0.9406529664993286,0.02094011940062046
+replace,none,7-text,1,A magazine cover with the headline “FASHION”,data/replace/7-text/1.png,0.24582092463970184,0.9571243524551392,0.0011036123614758253
+replace,none,7-text,2,A magazine cover with the headline “DESIGN”,data/replace/7-text/2.png,0.2559505105018616,0.9271011352539062,0.007261541672050953
+replace,none,7-text,3,A magazine cover with the headline “TRENDS”,data/replace/7-text/3.png,0.25369614362716675,0.9784176349639893,0.002135487738996744
+replace,none,7-text,4,A magazine cover with the headline “BEAUTY”,data/replace/7-text/4.png,0.25347986817359924,0.9237227439880371,0.00741488765925169
+replace,none,7-text,5,A magazine cover with the headline “LIFESTYLE”,data/replace/7-text/5.png,0.23947344720363617,0.9885222911834717,0.0014254498528316617
+replace,none,7-text,6,A magazine cover with the headline “MODERN”,data/replace/7-text/6.png,0.25661712884902954,0.9805532693862915,0.0021994970738887787
+replace,none,7-text,7,A magazine cover with the headline “ELEGANCE”,data/replace/7-text/7.png,0.25959593057632446,0.9613644480705261,0.002028575399890542
+replace,none,7-text,8,A magazine cover with the headline “GLAMOUR”,data/replace/7-text/8.png,0.24814535677433014,0.9466235041618347,0.004424461629241705
+replace,none,7-text,9,A magazine cover with the headline “FEATURES”,data/replace/7-text/9.png,0.24302281439304352,0.9798109531402588,0.0014603520976379514
+replace,none,7-text,10,A magazine cover with the headline “INSPIRE”,data/replace/7-text/10.png,0.23379647731781006,0.9601942300796509,0.004869859199970961
+replace,none,8-texture,1,A cup with a rough surface,data/replace/8-texture/1.png,0.29769203066825867,0.9840062856674194,0.009655728936195374
+replace,none,8-texture,2,A cup with a shiny surface,data/replace/8-texture/2.png,0.30397143959999084,0.9871028661727905,0.004617732018232346
+replace,none,8-texture,3,A cup with a matte surface,data/replace/8-texture/3.png,0.30118316411972046,0.9666121006011963,0.01101038046181202
+replace,none,8-texture,4,A cup with a soft surface,data/replace/8-texture/4.png,0.3007153868675232,0.9890413284301758,0.005634034518152475
+replace,none,8-texture,5,A cup with a hard surface,data/replace/8-texture/5.png,0.2888643741607666,0.9785672426223755,0.005068469792604446
+replace,none,8-texture,6,A cup with a sticky surface,data/replace/8-texture/6.png,0.2880227267742157,0.969487190246582,0.01578092761337757
+replace,none,8-texture,7,A cup with a wet surface,data/replace/8-texture/7.png,0.27635657787323,0.9554811716079712,0.008174687623977661
+replace,none,8-texture,8,A cup with a dry surface,data/replace/8-texture/8.png,0.2853392958641052,0.9782653450965881,0.006098094861954451
+replace,none,8-texture,9,A cup with a grainy surface,data/replace/8-texture/9.png,0.28945934772491455,0.9681006073951721,0.011906336061656475
+replace,none,8-texture,10,A cup with a fuzzy surface,data/replace/8-texture/10.png,0.2890967130661011,0.9885004758834839,0.006908380426466465
+replace,none,9-Transportation,1,A drawing of a boy driving a truck,data/replace/9-Transportation/1.png,0.2639128565788269,0.9499736428260803,0.01452258788049221
+replace,none,9-Transportation,2,A drawing of a boy driving a motorcycle,data/replace/9-Transportation/2.png,0.31325939297676086,0.8587620258331299,0.04594141244888306
+replace,none,9-Transportation,3,A drawing of a boy driving a bus,data/replace/9-Transportation/3.png,0.275358647108078,0.9347946643829346,0.00866589043289423
+replace,none,9-Transportation,4,A drawing of a boy driving a bicycle,data/replace/9-Transportation/4.png,0.32945555448532104,0.778908371925354,0.10117314755916595
+replace,none,9-Transportation,5,A drawing of a boy driving a scooter,data/replace/9-Transportation/5.png,0.24985191226005554,0.8932007551193237,0.016405219212174416
+replace,none,9-Transportation,6,A drawing of a boy driving a train,data/replace/9-Transportation/6.png,0.2970045506954193,0.9357213973999023,0.01123228669166565
+replace,none,9-Transportation,7,A drawing of a boy driving a submarine,data/replace/9-Transportation/7.png,0.2906138300895691,0.8823813199996948,0.019412245601415634
+replace,none,9-Transportation,8,A drawing of a boy driving a helicopter,data/replace/9-Transportation/8.png,0.2833179235458374,0.941840410232544,0.026197034865617752
+replace,none,9-Transportation,9,A drawing of a boy driving a jet,data/replace/9-Transportation/9.png,0.27724209427833557,0.9565127491950989,0.01616685837507248
+replace,none,9-Transportation,10,A drawing of a boy driving a spaceship,data/replace/9-Transportation/10.png,0.2644505500793457,0.9420233368873596,0.018528109416365623
 linear,self,0-animal,1,A photo of a cat riding a bicycle,data/linear/self/0-animal/1.png,0.352992981672287,0.8963724374771118,0.009747007861733437
 linear,self,0-animal,2,A photo of a dog riding a bicycle,data/linear/self/0-animal/2.png,0.34030139446258545,0.9360026121139526,0.010360939428210258
 linear,self,0-animal,3,A photo of a lion riding a bicycle,data/linear/self/0-animal/3.png,0.3396434485912323,0.8844218254089355,0.005361148156225681
