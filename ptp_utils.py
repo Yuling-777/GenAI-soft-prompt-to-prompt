@@ -19,7 +19,7 @@ import cv2
 from typing import Optional, Union, Tuple, List, Callable, Dict
 from IPython.display import display
 from tqdm.notebook import tqdm
-
+import matplotlib.pyplot as plt
 
 def text_under_image(image: np.ndarray, text: str, text_color: Tuple[int, int, int] = (0, 0, 0)):
     h, w, c = image.shape
@@ -300,10 +300,29 @@ def update_alpha_time_word(alpha, bounds: Union[float, Tuple[float, float]], pro
     alpha[end:, prompt_ind, word_inds] = 0
     return alpha
 
-
+def _build_timestep_scaler(num_steps: int,
+                           time_step_scaler: Union[None, float, List[float], Tuple[float, ...], np.ndarray, torch.Tensor, Callable[[int], float]]):
+    if time_step_scaler is None:
+        return None
+    if callable(time_step_scaler):
+        values = torch.tensor([float(time_step_scaler(i)) for i in range(num_steps + 1)], dtype=torch.float32)
+    elif isinstance(time_step_scaler, torch.Tensor):
+        values = time_step_scaler.detach().float().clone()
+    elif isinstance(time_step_scaler, np.ndarray):
+        values = torch.tensor(time_step_scaler, dtype=torch.float32)
+    else:
+        values = torch.tensor(time_step_scaler, dtype=torch.float32)
+    if values.ndim == 0:
+        values = values.repeat(num_steps + 1)
+    if values.shape[0] == num_steps:
+        values = torch.cat([values, values[-1:]], dim=0)
+    elif values.shape[0] != num_steps + 1:
+        raise ValueError(f"timestep scaler must provide {num_steps + 1} values (got {values.shape[0]})")
+    return values.view(num_steps + 1, 1, 1, 1, 1)
+    
 def get_time_words_attention_alpha(prompts, num_steps,
                                    cross_replace_steps: Union[float, Dict[str, Tuple[float, float]]],
-                                   tokenizer, max_num_words=77):
+                                   tokenizer, max_num_words=77, time_step_scaler=None):
     if type(cross_replace_steps) is not dict:
         cross_replace_steps = {"default_": cross_replace_steps}
     if "default_" not in cross_replace_steps:
@@ -319,4 +338,49 @@ def get_time_words_attention_alpha(prompts, num_steps,
                  if len(ind) > 0:
                     alpha_time_words = update_alpha_time_word(alpha_time_words, item, i, ind)
     alpha_time_words = alpha_time_words.reshape(num_steps + 1, len(prompts) - 1, 1, 1, max_num_words)
+    scaler = _build_timestep_scaler(num_steps, time_step_scaler)
+    if scaler is not None:
+        alpha_time_words = torch.clamp(alpha_time_words * scaler, 0., 1.)
     return alpha_time_words
+
+def plot_alpha_for_word(prompts,
+                        alpha_time_words: torch.Tensor,
+                        tokenizer,
+                        word: str,
+                        prompt_index: int = 1):
+    num_steps_plus_1 = alpha_time_words.shape[0]
+
+    # alpha uses prompt indices excluding the base prompt
+    # so prompt_index=1 → alpha_prompt_ind=0
+    alpha_prompt_ind = prompt_index - 1
+    if alpha_prompt_ind < 0 or alpha_prompt_ind >= alpha_time_words.shape[1]:
+        raise ValueError(f"prompt_index must be in the range 1 to {alpha_time_words.shape[1]} (inclusive).")
+
+    # Find token indices for the target word (may consist of multiple subword tokens)
+    word_inds = get_word_inds(prompts[prompt_index], word, tokenizer)
+    if len(word_inds) == 0:
+        print(f"⚠️ Word '{word}' not found in prompt[{prompt_index}] = {prompts[prompt_index]!r}.")
+        return
+
+    timesteps = np.arange(num_steps_plus_1)
+
+    plt.figure(figsize=(7, 4))
+    for idx in word_inds:
+        alpha_values = alpha_time_words[:, alpha_prompt_ind, 0, 0, idx].cpu().numpy()
+
+        # Plot a smooth curve (no markers)
+        plt.plot(
+            timesteps,
+            alpha_values,
+            linewidth=2,
+            label=f"token_idx={int(idx)}"
+        )
+
+    plt.xlabel("timestep", fontsize=12)
+    plt.ylabel("alpha", fontsize=12)
+    plt.title(f"alpha(t) for word '{word}' in prompt[{prompt_index}]", fontsize=14)
+    plt.ylim(-0.05, 1.05)
+    plt.grid(alpha=0.3)
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
